@@ -14,6 +14,16 @@
     <header class="header">
         <div class="container">
             <div class="header_top">
+                <nav class="item-header__menus menus-item-header">
+
+                </nav>
+                <div class="item-header__burgers">
+                    <div class="item-header__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
                 <div class="logo">GENIUS SCHOOL</div>
                 <div class="menu">
                     <a class="menu__a" href="#">Почему мы?</a>
@@ -43,9 +53,12 @@
                     <div class="callback__title">Пройдите пробный урок с диагностикой навыков </div>
                     <div class="callback__subtitle">Просто оставьте свои контакты, и мы свяжемся с вами</div>
                     <form class="form">
-                        <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
-                        <input class="form__input" autocomplete="off" type="tel" name="form"
-                            placeholder="7 (XХХ) ХХХ ХХ ХХ ">
+                        <div class="form__input-box">
+                            <input class="form__input" autocomplete="off" type="tel" name="form"
+                                placeholder="7 (XХХ) ХХХ ХХ ХХ ">
+                            <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
+                        </div>
+
                         <button class="button" type="submit"><a class="button__a">Записаться</a></button>
                     </form>
                 </div>
@@ -68,7 +81,7 @@
                     <div class="grid">
                         <div class="grid__box">
                             <div class="grid__img"><img src="img/1-trial-lesson/1.svg" alt="lesson1"></div>
-                            <p class="grid__txt">Определяем уровень ребёнка</p>
+                            <p class="grid__txt">Определяем <br>уровень ребёнка</p>
                             <img class="grid__track" src="img/1-trial-lesson/track1.svg" alt="track">
                         </div>
                         <div class="grid__box">
@@ -76,7 +89,7 @@
                             <p class="grid__txt">Получаете рекомендации, <br>
                                 как подтянуть математику<br>
                                 на 1 балл за 2 месяца</p>
-                            <img class="grid__track" src="img/1-trial-lesson/track1.svg" alt="track">
+                            <img class="grid__track" src="img/1-trial-lesson/track2.svg" alt="track">
                         </div>
                         <div class="grid__box">
                             <div class="grid__img"><img src="img/1-trial-lesson/3.svg" alt="lesson3"></div>
@@ -95,7 +108,7 @@
                             <div class="grid__img"><img src="img/1-trial-lesson/5.svg" alt="lesson5"></div>
                             <p class="grid__txt">Пройдете полноценное<br>
                                 занятие – 1 академ. час </p>
-                            <img class="grid__track" src="img/1-trial-lesson/track1.svg" alt="track">
+                            <img class="grid__track" src="img/1-trial-lesson/track2.svg" alt="track">
                         </div>
                         <div class="grid__box">
                             <div class="grid__img"><img src="img/1-trial-lesson/6.svg" alt="lesson6"></div>
@@ -119,6 +132,9 @@
                             </div>
                             <p class="grid__txt">Ребёнок не понимает<br>
                                 зачем ему математика</p>
+                            <div class="line">
+                                <div class="line__line"></div>
+                            </div>
                         </div>
                         <div class="grid__box grid__box--down">
                             <div class="grid__img grid__img--circle"><img src="img/2-parents-come/2.svg" alt="lesson2">
@@ -126,6 +142,9 @@
                             <p class="grid__txt">ПУпали оценки в школе, <br>
                                 а значит есть проблемы<br>
                                 в знаниях</p>
+                            <div class="line line--two">
+                                <div class="line__line"></div>
+                            </div>
                         </div>
                         <div class="grid__box">
                             <div class="grid__img grid__img--circle"><img src="img/2-parents-come/3.svg" alt="lesson3">
@@ -141,12 +160,18 @@
                                 из ГДЗ и не хочет<br>
                                 сам думать
                             </p>
+                            <div class="line">
+                                <div class="line__line"></div>
+                            </div>
                         </div>
                         <div class="grid__box grid__box--down">
                             <div class="grid__img grid__img--circle"><img src="img/2-parents-come/5.svg" alt="lesson5">
                             </div>
                             <p class="grid__txt">Делает ошибки из-за<br>
                                 невнимательности </p>
+                            <div class="line line--two">
+                                <div class="line__line"></div>
+                            </div>
                         </div>
                         <div class="grid__box">
                             <div class="grid__img grid__img--circle"><img src="img/2-parents-come/6.svg" alt="lesson6">
@@ -156,9 +181,6 @@
                                 всячески саботирует<br>
                                 выполнение заданий
                             </p>
-                            <div class="line">
-                                <div class="line__line"></div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,17 +188,20 @@
 
         <section class="section">
             <div class="callback callback--fullscreen">
-                <img class="callback__img" src="img/3-green-line/os0061_9 2.png" alt="">
+                <div class="callback__img"><img src="img/3-green-line/os0061_9 2.png" alt="boy"></div>
                 <div class="container">
                     <div class="callback__subtitle">Математика – предмет, где важно усвоить каждый материал, чтобы
-                        перейти к следующей теме. Без понимания порядка умножения и деления невозможно освоить
+                        <br>перейти к следующей теме. Без понимания порядка умножения и <br>деления невозможно освоить
                         уравнения, а за ними дискриминанты. </div>
-                    <div class="callback__title">Математика - основа всех точных наук, поэтому важно
+                    <div class="callback__title callback__title--two">Математика - основа всех точных наук, поэтому
+                        важно <br>
                         заложить фундамент знаний и интерес к предмету.</div>
-                    <form class="form">
-                        <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
-                        <input class="form__input" autocomplete="off" type="tel" name="form"
-                            placeholder="7 (XХХ) ХХХ ХХ ХХ ">
+                    <form class="form form--two">
+                        <div class="form__input-box">
+                            <input class="form__input" autocomplete="off" type="tel" name="form"
+                                placeholder="7 (XХХ) ХХХ ХХ ХХ ">
+                            <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
+                        </div>
                         <button class="button" type="submit"><a class="button__a">Записаться</a></button>
                     </form>
                 </div>
@@ -186,10 +211,11 @@
 
         <section class="section">
             <div class="solve-problems">
+                <div class="left-right-img">
+                    <div class="left-right-img__left"><img src="img/4-solve-problems/1.svg" alt=""></div>
+                    <div class="left-right-img__right"><img src="img/4-solve-problems/2.svg" alt=""></div>
+                </div>
                 <div class="container">
-                    <div class="solve-problems__img "><img src="img/4-solve-problems/1.svg" alt=""></div>
-                    <div class="solve-problems__img solve-problems__img--down"><img src="img/4-solve-problems/2.svg"
-                            alt=""></div>
                     <h2 class="title2">Как мы <span class="title2__span">решаем</span> эти задачи?</h2>
                     <h3 class="title3">
                         Традиционное школьное обучение проходит в виде лекции, за урок успевают ответить 2-3 ученика. В
@@ -202,25 +228,26 @@
                 </div>
             </div>
             <div class="singaporean-technique">
-                <h2 class="title2">Принципы <br><span class="title2__span">сингапурской методики</span> </h2>
+                <h2 class="title2 title2--singaporean">Принципы <br><span class="title2__span">сингапурской
+                        методики</span> </h2>
                 <div class="grid">
                     <div class="grid__box grid__box--50">
-                        <p class="grid__txt grid__txt--white">Слышать ребенка и находить свой <br>подход к каждому.
+                        <p class="grid__txt grid__txt--white text-left">Слышать ребенка и находить свой <br>подход к каждому.
                             Давайте вставим <br>еще текст для полноты</p>
                     </div>
                     <div class="grid__box grid__box--50">
-                        <p class="grid__txt grid__txt--white">Снятие страха перед совершением<br>
+                        <p class="grid__txt grid__txt--white text-left">Снятие страха перед совершением<br>
                             ошибок через систему наград<br>
                             за каждую маленькую победу</p>
                     </div>
                     <div class="grid__box grid__box--50">
-                        <p class="grid__txt grid__txt--white">Обучение математики через<br>
+                        <p class="grid__txt grid__txt--white text-left">Обучение математики через<br>
                             практику и жизненные примеры.<br>
                             Давайте дополним текст
                         </p>
                     </div>
                     <div class="grid__box grid__box--50">
-                        <p class="grid__txt grid__txt--white">Работа в малых группах до 5 человек<br>
+                        <p class="grid__txt grid__txt--white text-left">Работа в малых группах до 5 человек<br>
                             Давайте вставим еще текст, чтобы <br>
                             плашки не казались пустыми
                         </p>
@@ -232,18 +259,26 @@
         </section>
 
 
-        <section>
+        <section class=section-summer-intensive>
+            <div class="left-right-img left-right-img--summer">
+                <div class="left-right-img__left left-right-img__left--summer"><img src="img/6-summer-intensive/1.png"
+                        alt=""></div>
+                <div class="left-right-img__right left-right-img__right--summer"><img src="img/6-summer-intensive/2.png"
+                        alt=""></div>
+            </div>
             <div class="container">
-                <h2 class="title2"><br><span class="title2__span">летний интенсив</span> <br>от genius school </h2>
                 <div class="summer-intensive">
-                    <div class="title3 title3--bold text-left">Предлагаем вашему ребенку
-                        провести лето весело и с пользой!
-                        Закрепим знания за прошлый учебный год и восполним пробелы на летнем интенсиве по математике
+                    <h2 class="title2"><br><span class="title2__span">летний интенсив</span> <br>от genius school </h2>
+                    <div class="title3 title3--bold title3--summer-intensive">Предлагаем вашему ребенку<br>
+                        провести лето весело и с пользой!<br>
+                        Закрепим знания за прошлый учебный год и <br>восполним пробелы на летнем интенсиве по
+                        <br>математике
                     </div>
 
-                    <h3 class="title3 text-left">
-                        Вашего ребёнка ждёт online-лагерь со сказкой и легендой. Мы встроили классические математические
-                        примеры в увлекательную игру
+                    <h3 class="title3 title3--summer-intensive">
+                        Вашего ребёнка ждёт online-лагерь со сказкой <br>и легендой. Мы встроили классические
+                        математические<br>
+                        примеры в увлекательную игру<br>
                         с приключениями!
 
                     </h3>
@@ -256,33 +291,36 @@
         <section>
             <div class="container">
                 <div class="training-program">
-                    <h2 class="title2"><br><span class="title2__span">что ребенок получит</span> в результате обучения?
+                    <h2 class="title2"><br><span class="title2__span">Программа обучения:</span>
                     </h2>
                 </div>
-
                 <div class="grid">
+
                     <div class="grid__box grid__box--50 grid__box--training-program">
-                        <div class="grid__img grid__img--training-program"><img src="img/7-training-program/1.svg"
-                                alt=""></div>
-                        <p class="grid__txt text-left">Программа составлена по принципу<br>
-                            «от простого к сложному</p>
+                        <div class=" grid__img--training-program"><img src="img/7-training-program/1.svg" alt=""></div>
+                        <p class="grid__txt text-left grid__txt444">Программа составлена по принципу<br>
+                            <span class="grid__txt--span">«от простого к сложному»</span>
+                        </p>
+
                     </div>
                     <div class="grid__box grid__box--50 grid__box--training-program">
-                        <div class="grid__img"><img src="img/7-training-program/2.svg" alt=""></div>
-                        <p class="grid__txt text-left">Занятие проходит с педагогом через zoom 1 раз<br>
-                            в неделю и делится на 2 урока по 45 минут.<br>
+                        <div class=" grid__img--training-program"><img src="img/7-training-program/2.svg" alt=""></div>
+                        <p class="grid__txt text-left grid__txt444">Занятие проходит с педагогом через <span
+                                class="grid__txt--span">zoom 1 раз
+                                в неделю</span> и делится на 2 урока по 45 минут.<br>
                             Каждое занятие – отдельный квест с интересными развивающими заданиями.</p>
                     </div>
                     <div class="grid__box grid__box--50 grid__box--training-program">
-                        <div class="grid__img"><img src="img/7-training-program/3.svg" alt=""></div>
-                        <p class="grid__txt text-left">Ежедневно по 10-15 минут ребёнок играет на нашей платформе<br>
-                            и выполняет задания по математике, чтобы закрепить материал.</p>
+                        <div class=" grid__img--training-program"><img src="img/7-training-program/3.svg" alt=""></div>
+                        <p class="grid__txt text-left grid__txt444"><span class="grid__txt--span">Ежедневно по 10-15
+                                минут</span> ребёнок <br>играет на нашей платформе<br>
+                            и выполняет задания по математике, <br> чтобы закрепить материал.</p>
                     </div>
                     <div class="grid__box grid__box--50 grid__box--training-program">
-                        <div class="grid__img"><img src="img/7-training-program/4.svg" alt=""></div>
-                        <p class="grid__txt text-left">В новом учебном году ваш ребёнок пойдёт<br>
-                            в школу с развитым интересом к предмету<br>
-                            и к учёбе! Бонус – подготовим к всероссийским проверочным работам</p>
+                        <div class=" grid__img--training-program"><img src="img/7-training-program/4.svg" alt=""></div>
+                        <p class="grid__txt text-left grid__txt444">В новом учебном году ваш ребёнок пойдёт<br>
+                            в школу с <span class="grid__txt--span">развитым интересом к предмету<br>
+                                и к учёбе</span>! Бонус – подготовим к всероссийским проверочным работам</p>
                     </div>
                 </div>
             </div>
@@ -381,16 +419,20 @@
                     </h2>
                     <div class="results">
                         <div class="results__box">
-                            <img src="img/10-student-results/1.png" alt="">
+                            <video controls="play" width="100%" height="100%" poster="img/10-student-results/1.png"
+                                src="/video/1.mp4"></video>
                         </div>
                         <div class="results__box">
-                            <img src="img/10-student-results/2.png" alt="">
+                            <video controls="play" width="100%" height="100%" poster="img/10-student-results/2.png"
+                                src="/video/1.mp4"></video>
                         </div>
                         <div class="results__box">
-                            <img src="img/10-student-results/3.png" alt="">
+                            <video controls="play" width="100%" height="100%" poster="img/10-student-results/3.png"
+                                src="/video/1.mp4"></video>
                         </div>
                         <div class="results__box">
-                            <img src="img/10-student-results/4.png" alt="">
+                            <video controls="play" width="100%" height="100%" poster="img/10-student-results/4.png"
+                                src="/video/1.mp4"></video>
                         </div>
                     </div>
                     <button class="button" type="submit"><a class="button__a">хочу так же</a></button>
@@ -400,37 +442,55 @@
 
 
 
-        <section class="section">
+        <section class="section own-educational-section">
             <div class="container">
                 <div class="own-educational-platform">
-                    <h2 class="title2">собственная<span class="title2__span">образовательная</span> <br>платформа</h2>
+                    <h2 class="title2">собственная<br> <span class="title2__span">образовательная</span> платформа</h2>
                     <h3 class="title3">В основе концепции нашей обучающей платформы стоит симулятор взрослого мира.
                     </h3>
                     <h3 class="title3">Перед первым уроком ребенк выбирает 1 из 8 профессий, с которой он начнет свою
                         работу в Симуляторе. Каждый день на платформе ваш ребенок будет выполнять задания, получать
                         вознаграждения и обменивать его на улучшение своего персонажа. </h3>
-                    <div class="education-content">
-                        <div class="education-content-box">
-                            Класс - Ребёнок забудет о скучных
-                            учебниках и одинаковых примерах, ведь
-                            каждый урок - это новое увлекательное
-                            приключение в мире логики!
+                    <div class="education-flex">
+                        <div class="education-content">
+                            <div class="education-content-box">
+                                Класс - Ребёнок забудет о скучных
+                                учебниках и одинаковых примерах, ведь
+                                каждый урок - это новое увлекательное
+                                приключение в мире логики!
+                                <div class="education-content-box__img">
+                                    <img src="img/8-own-educational-platform/1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="education-content-box">
+                                Игры - Ребенок играет, но на само деле
+                                закрепляет пройденный материал.
+                                Он даже не заметит, как пролетит время
+                                весело и с пользой.
+                                <div class="education-content-box__img education-content-box__img--2">
+                                    <img src="img/8-own-educational-platform/2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="education-content-box">
+                                Домашняя работа - Яркая и интересная!
+                                Преподаватель собирает задачи
+                                по программе и под каждую зону роста
+                                именно вашего ребёнка.
+                                <div class="education-content-box__img education-content-box__img--3">
+                                    <img src="img/8-own-educational-platform/2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="education-content-box">
+                                Новости - Тут собраны своя внутренняя
+                                валюта и социальная сеть.
+                                <div class="education-content-box__img education-content-box__img--4">
+                                    <img src="img/8-own-educational-platform/3.svg" alt="">
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="education-content-box">
-                            Игры - Ребенок играет, но на само деле
-                            закрепляет пройденный материал.
-                            Он даже не заметит, как пролетит время
-                            весело и с пользой.
-                        </div>
-                        <div class="education-content-box">
-                            Домашняя работа - Яркая и интересная!
-                            Преподаватель собирает задачи
-                            по программе и под каждую зону роста
-                            именно вашего ребёнка.
-                        </div>
-                        <div class="education-content-box">
-                            Новости - Тут собраны своя внутренняя
-                            валюта и социальная сеть.
+                        <div class="education-content-img">
+                            <img src="img/8-own-educational-platform/comp.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -511,13 +571,15 @@
 
 
         <section class="section">
-            
-                <div class="lesson-go">
-                    <h2 class="title2">как проходит <span class="title2__span2">урок</span></h2>
-                    <div class="lesson-go__img">
-                        <img src="img/13-lesson-go/bg.png" alt="">
-                    </div>
+            <div class="lesson-go">
+                <h2 class="title2">как проходит <span class="title2__span2">урок</span></h2>
+                <div class="lesson-go__video">
+                    <video controls="play" poster="img/image 169.png" src="/video/1.mp4"></video>
                 </div>
+                <div class="lesson-go__img">
+                    <img src="img/13-lesson-go/bg.png" alt="">
+                </div>
+            </div>
 
         </section>
 
@@ -526,7 +588,7 @@
                 <div class="our-teachers">
                     <h2 class="title2">наши <span class="title2__span2">преподаватели</span></h2>
                     <h3 class="title3">В нашей школе 56 преподавателей из разных часовых поясов.<br>
-Ваш ребенок будет заниматься с тем, кто идеально подходит ему:
+                        Ваш ребенок будет заниматься с тем, кто идеально подходит ему:
                         <div class="description-teachers">
                             <div class="description-teachers__box">
                                 по психотипу
@@ -542,49 +604,54 @@
 
                         <div class="teachers-cards">
                             <div class="teachers-box">
-                                <div class="teachers-box__img"><img src="img/14-teachers/Rectangle 192 (1).png" alt=""></div>
-                               <div class="teachers-box__content">
-                                <div class="teachers-box__name">Мордина Ольга</div>
-                                <div class="teachers-box__subname">Опыт работы: 10 лет</div>
-                                <div class="teachers-box__subscription">
-                                    «Я знаю, что ваш ребёнок – гений! Главное найти подход и развить способности. Вместе мы это обязательно сделаем». 
+                                <div class="teachers-box__img"><img src="img/11-teachers/1.png" alt="">
                                 </div>
-                               </div>
+                                <div class="teachers-box__content">
+                                    <div class="teachers-box__name">Мордина Ольга</div>
+                                    <div class="teachers-box__subname">Опыт работы: 10 лет</div>
+                                    <div class="teachers-box__subscription">
+                                        «Я знаю, что ваш ребёнок – гений! Главное найти подход и развить способности.
+                                        Вместе мы это обязательно сделаем».
+                                    </div>
+                                </div>
                             </div>
                             <div class="teachers-box">
-                                <div class="teachers-box__img"><img src="img/14-teachers/Rectangle 192 (1).png" alt=""></div>
-                               <div class="teachers-box__content">
-                                <div class="teachers-box__name">Мордина Ольга</div>
-                                <div class="teachers-box__subname">Опыт работы: 10 лет</div>
-                                <div class="teachers-box__subscription">
-                                    «Я знаю, что ваш ребёнок – гений! Главное найти подход и развить способности. Вместе мы это обязательно сделаем». 
+                                <div class="teachers-box__img"><img src="img/11-teachers/2.png" alt="">
                                 </div>
-                               </div>
+                                <div class="teachers-box__content">
+                                    <div class="teachers-box__name">Простова Мария</div>
+                                    <div class="teachers-box__subname">Опыт работы: 7 лет</div>
+                                    <div class="teachers-box__subscription">
+                                        «Уроки со мной заряжены на успех и результат! Ребёнок сам увидит свои результаты и будет стремиться к новым вершинам».
+                                    </div>
+                                </div>
                             </div>
                             <div class="teachers-box">
-                                <div class="teachers-box__img"><img src="img/14-teachers/Rectangle 192 (1).png" alt=""></div>
-                               <div class="teachers-box__content">
-                                <div class="teachers-box__name">Мордина Ольга</div>
-                                <div class="teachers-box__subname">Опыт работы: 10 лет</div>
-                                <div class="teachers-box__subscription">
-                                    «Я знаю, что ваш ребёнок – гений! Главное найти подход и развить способности. Вместе мы это обязательно сделаем». 
+                                <div class="teachers-box__img"><img src="img/11-teachers/3.png" alt="">
                                 </div>
-                               </div>
+                                <div class="teachers-box__content">
+                                    <div class="teachers-box__name">Кеслер Диана</div>
+                                    <div class="teachers-box__subname">Опыт работы: 4 года</div>
+                                    <div class="teachers-box__subscription">
+                                        «Вместе мы дадим бой лени и нежеланию учиться. Я научу волшебству, благодаря которому ребёнок полюбит уроки!»
+                                    </div>
+                                </div>
                             </div>
                             <div class="teachers-box">
-                                <div class="teachers-box__img"><img src="img/14-teachers/Rectangle 192 (1).png" alt=""></div>
-                               <div class="teachers-box__content">
-                                <div class="teachers-box__name">Мордина Ольга</div>
-                                <div class="teachers-box__subname">Опыт работы: 10 лет</div>
-                                <div class="teachers-box__subscription">
-                                    «Я знаю, что ваш ребёнок – гений! Главное найти подход и развить способности. Вместе мы это обязательно сделаем». 
+                                <div class="teachers-box__img"><img src="img/11-teachers/4.png" alt="">
                                 </div>
-                               </div>
+                                <div class="teachers-box__content">
+                                    <div class="teachers-box__name">Дешевенко Полина</div>
+                                    <div class="teachers-box__subname">Опыт работы: 5 лет</div>
+                                    <div class="teachers-box__subscription">
+                                        «Я точно знаю, что чтение - это увлекательное приключение! Устраивайся удобнее перед экраном и готовься к путешествию!»
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
 
-                    
+
                 </div>
             </div>
         </section>
@@ -600,33 +667,35 @@
                     <div class="cards-reviews">
                         <div class="card">
                             <div class="card__left-content">
-
+                                <video poster="./img/video_10.png" src="video/1.mp4"></video>
                             </div>
                             <div class="card__right-content">
                                 <div class="card__first-line">
-                                    <div class="card__box">марина</div>
+                                    <div class="card__box">Марина</div>
                                     <div class="date">11.05.2022</div>
                                 </div>
                                 <div class="card__title">Из троечника в ударники за 2 месяца</div>
-                                <div class="card__description">Мой ребенок до 8 лет был одним из самых слабых в классе 
+                                <div class="card__description">Мой ребенок до 8 лет был одним из самых слабых в классе
                                     по математике. Не понимал, как решать задачи, капризничал.
-                                    Я обратилась в Genius School и теперь Ваня с удовольствием бежит на каждый урок и занимается на тренажерах, мы догнали школьную программу! Спасибо огромное нашему тренеру Марине, которая смогла влюбить ребёнка в обучение. </div>
+                                    Я обратилась в Genius School и теперь Ваня с удовольствием бежит на каждый урок и
+                                    занимается на тренажерах, мы догнали школьную программу! Спасибо огромное нашему
+                                    тренеру Марине, которая смогла влюбить ребёнка в обучение. </div>
 
                             </div>
                         </div>
                     </div>
                     <div class="buttons">
-                        <button class="button">
-                            все отзывы
+                        <button class="button button--reviews">
+                            Все отзывы
                         </button>
 
                         <div class="carousel">
-                            <button class="right">
-
-                            </button >
-                            <button  class="left">
-
-                            </button >
+                            <button class="button button--reviews button--right">
+                                <img src="img/arrow.svg" alt="">
+                            </button>
+                            <button class="button button--reviews button--left">
+                                <img src="img/arrow.svg" alt="">
+                            </button>
                         </div>
                     </div>
 
@@ -638,18 +707,23 @@
 
 
 
-        <section class="section">
+        <section class="section section--register">
             <div class="container">
                 <div class="register">
-                    <h2 class="title2"><span class="title2__span2">записывайтесь</span><br>на первое пробное занятие</h2>
+                    <h2 class="title2"><span class="title2__span2">записывайтесь</span><br>на первое пробное занятие
+                    </h2>
                     <div class="callback callback--two">
-                        <div class="callback__subtitle">Чтобы вы поняли, понравится ли вашему ребёнку в нашей школе, мы даём возможность позаниматься с нами один день бесплатно</div>
-                        <form class="form">
-                            <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
-                            <input class="form__input" autocomplete="off" type="tel" name="form"
-                                placeholder="7 (XХХ) ХХХ ХХ ХХ ">
-                            <button class="button" type="submit"><a class="button__a">Записаться</a></button>
-                        </form>
+                        <div class="callback__subtitle callback__subtitle--two">Чтобы вы поняли, понравится ли вашему ребёнку в нашей школе, мы
+                            даём возможность позаниматься с нами один день бесплатно</div>
+                            <form class="form">
+                                <div class="form__input-box">
+                                    <input class="form__input" autocomplete="off" type="tel" name="form"
+                                        placeholder="7 (XХХ) ХХХ ХХ ХХ ">
+                                    <img class="form_img" src="img/header/2-header-bottom/call.svg" alt="call">
+                                </div>
+        
+                                <button class="button" type="submit"><a class="button__a">Записаться</a></button>
+                            </form>
                     </div>
                 </div>
             </div>
@@ -658,6 +732,30 @@
 
         </div>
     </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="footer__a" href="">Договор оферты</a>
+                <a class="footer__a" href="">Политика конфиденциальности</a>
+                <div class="footer__social">
+                    <div class="footer__img"><img src="img/footer/1.svg" alt=""></div>
+                    <div class="footer__img"><img src="img/footer/2.svg" alt=""></div>
+                    <div class="footer__img"><img src="img/footer/3.svg" alt=""></div>
+                </div>
+                <a class="footer__a" href="tel:+79315213183"><img src="img/footer/5.svg" alt=""> +7 (931) 521-31-83</a>
+                <a class="footer__a" href="mailto:info@genius-school.club"><img src="img/footer/4.svg" alt=""> info@genius-school.club</a>
+
+            </div>
+            <div class="footer__bottom">
+                ИП Шарафутдинова Наталья Сергеевна. ИНН 165902614802, ОГРНИП
+314169016100022, Адрес: РТ, 420141, г. Казань, ул. Кул Гали 24
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
